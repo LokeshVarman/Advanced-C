@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{​​
+{
   char psswd[11];
   char c;
   int i;
@@ -9,13 +9,13 @@ int main()
 
   for(i=0;i<11;i++)
 
-  {​​
+  {
 
     c=getch();
 
     psswd[i]=c;
 
-  }​​
+  }
 
   psswd[i]='\0';
 
@@ -23,4 +23,4 @@ int main()
 
   return 0;
 
-}​​
+}
